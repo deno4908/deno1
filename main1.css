@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Kanit&family=Space+Grotesk:wght@300&display=swap');
+@keyframes deno{
+    0%{height: 50vh;width: 50vh;left: 95vh;bottom: 65vh;}
+    100%{height: 25vh;width: 25vh;left: 95vh;bottom: 65vh;}
+}
+@keyframes obj{
+    0%{height: 50vh;width: 50vh;left: 2vh;bottom: -2vh;}
+    100%{height: 20vh;width: 20vh;left: 2vh;bottom: -2vh;}
+}
+@keyframes obj1{
+    0%{left:99vh;bottom: 90vh;font-size: 20vh;}
+    100%{left:99vh;bottom: 82vh;font-size: 10vh;}
+}
+@keyframes obj2{
+    0%{transform: rotate(25deg);bottom: 150vh;}
+    100%{transform: rotate(-25deg);bottom: 150vh;}
+}
+@keyframes text {
+    0%{color: aliceblue;}
+    5%{color :aqua};
+    10%{color :bisque}
+    15%{color:black}
+    20%{color :blue}
+    25%{color:blueviolet}
+    30%{color :brown}
+    35%{color:cyan}
+    40%{color:darkred}
+    45%{color:red}
+    50%{color:yellow}
+    55%{color: aliceblue;}
+    60%{color :aqua};
+    65%{color :bisque}
+    70%{color:black}
+    75%{color :blue}
+    80%{color:blueviolet}
+    85%{color :brown}
+    90%{color:cyan}
+    95%{color:darkred}
+    100%{color:red}
+    
+    
+}
+.DENO{
+    position: relative;
+    height: 100vh;
+    width: 210vh;
+    left: -2vh;
+    bottom: 2vh;
+}
+.box1{
+    position: relative;
+    background-color: red;
+    height: 25vh;
+    width: 25vh;
+    left: 95vh;
+    bottom: 65vh;
+    transform: rotate(45deg);
+    animation-name: deno;
+    animation-duration: 4s;
+}
+.box2{
+    position: relative;
+    background-color: red;
+    border: 5px solid yellow;
+    height: 20vh;
+    width: 20vh;
+    left: 2vh;
+    bottom: -2vh;
+    animation-name: obj;
+    animation-duration: 4s;
+  
+}
+.text{
+    animation-name: obj1;
+    position: relative;
+    left: 99vh;
+    bottom: 82vh;
+    font-size: 10vh;
+    font-family: 'Allura', cursive;
+    animation-duration: 4s;
+}
+.job1{
+    position: relative;
+    bottom: 150vh;
+
+    
+}
+.job2{
+    position: relative;
+    bottom: 219vh;
+    left: 140vh;
+}
+.text2{
+    position: relative;
+    bottom: 270vh;
+    left: 45vh;
+    font-size: 10vh;
+    text-shadow: 5% red;
+    color:white;
+    font-family: 'Allura', cursive;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}

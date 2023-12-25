@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+.box1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color:rgb(255, 255, 255);
+}
+.icon{
+    position: relative;
+    width: 319px;
+    height: 208px;
+    bottom: 0%;
+    background-color: rgb(255, 255, 255);
+}
+.DENO{
+    position: relative;
+    width: 319px;
+    height: 208px;
+    left: -30px;
+    
+}
+.HOTLINE{
+    position: relative;
+    width: 156px;
+    height: 22px;
+    left: 820px;
+    bottom: 123px;
+    color :orange;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.logo1{
+    position:absolute;
+    width: 31px;
+    height: 29px;
+    left:792px;
+    top: 81px;
+    bottom: 114px;
+}
+.logo2{
+    position: absolute;
+    width: 31px;
+    height: 29px;
+    left:1007px;
+    top: 81px;
+    bottom: 114px;
+}
+.GMAIL{
+    position: relative;
+    width: 156px;
+    height: 22px;
+    left: 870px;
+    bottom: 123px;
+    color :orange;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.login{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    left: 1307px;
+    background-color: white;
+    bottom: 175px;
+    border-radius: 20px;
+
+}
+.logo3{
+    position: relative;
+    width: 60px;
+    height: 38px;
+    bottom: 60px ;
+}
+.button{
+    width: 200px;
+    height: 60px;
+    background-color:  orange;
+    border-color: orange;
+    border-radius: 20px;
+}
+.LOGINTEXT{
+    position: relative;
+    width: 45px;
+    height: 38px;
+    bottom: 50px ;
+    font-size: 20px;
+    left: 40px;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+.box2{
+    position: relative;
+    width: 460px;
+    height: 164px;
+    left: 275px;
+    bottom: 260px;
+    background-color: white;
+   border-radius: 30px;
+}
+.img1{
+    position: relative;
+    width: 460px;
+    height: 164px;
+    border-radius: 30px;
+    border-color: orange;
+    border: 5px solid white;
+}
