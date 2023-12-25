@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bebas+Neue&family=Kanit&family=Lobster&family=Space+Grotesk:wght@300&display=swap');
+@keyframes else{
+    0%{border:5px solid pink;}
+    50%{border:5px solid yellow;}
+    100%{border:5px solid pink;}
+}
+@keyframes if{
+    0%{border: 5px solid lightcoral;}
+    50%{border: 5px solid lightgray;}
+    100%{border: 5px solid lightcoral;}
+}
+@keyframes deno1{
+    0%{bottom: 200vh;left:9vh}
+    100%{bottom :20vh;left :9vh}
+}
+.deno{
+    background-color: white;
+    width: 80vh;
+    height: 45vh;
+    position: relative;
+    left: 65vh;
+    bottom: -25vh;
+    border: 5px solid red;
+    animation-name: else;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: pink;
+}
+.dox{
+    position: relative;
+    left: 25vh;
+    bottom: 0vh;
+    font-size: 3vh;
+}
+#co{
+    position: relative;
+    left: 5vh;
+    height: 10vh;
+    width: 20vh;
+    bottom: -15vh;
+    background-color: red;
+    pointer-events:all;
+}
+#ko{
+    position: relative;
+    left: 35vh;
+    height: 10vh;
+    width: 20vh;
+    bottom: -15vh;
+    background-color: blue;
+    pointer-events: auto;
+}  
+.job{
+    color: black;
+    text-decoration: none;
+}
+#mybox{
+    width: 60vh;
+    height: 40vh;
+    background-color:antiquewhite;
+    position: relative;
+    left: 9vh;
+    bottom: 200vh;
+    border: 5px solid blue;
+    animation-name: if;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.obj2{
+    font-size: 4vh;
+    text-align: center;
+    font-family:'lobster' ;
+}
+#love{
+    position: relative;
+    width: 25vh;
+    height: 25vh;
+    left:16vh;
+}
